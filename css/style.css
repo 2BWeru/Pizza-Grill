@@ -3,6 +3,21 @@
      border: 0;
  }
  .image-background{
-     height: 100vh;
+     background-image: url(../image/p1.jpg);
+     height:200vh;
      width: 100vw;
+     background-size: cover;
+     position: relative;
+ }
+ nav{
+   padding-left: 40%;
+   column-gap: 2px;
+   
+ }
+ .image-text{
+     display: flex;
+     justify-content: center;
+     padding-top: 30%;
+     
+     
  }
