@@ -5,7 +5,7 @@
  }
  .image-background{
      background-image: url(../image/p1.jpg);
-     height:270vh;
+     height:250vh;
      width: 100vw;
      background-size: cover;
      position: relative;
@@ -24,13 +24,18 @@
      padding-top: 20%;   
      font-size: xx-large;  
  }
+ #t-name , h2{
+     display: flex;
+     justify-content: center;
+ }
+
  #p-text{
-     width:40%;
+     width:max-content;
      height: 50%;
-     background-color: rgba(0,0,0,0.9);
+     
      font-style: italic;
      color: rgb(246, 237, 185);
-     border: 2px solid rgb(83, 83, 83);
+     /* border: 2px solid rgb(83, 83, 83); */
  }
  #p-text h3{
      padding-left: 140px;
@@ -41,7 +46,7 @@
      font-style: italic;
  } */
  .order-img{
-     width:fit-content;
+     width:auto;
      background-color:black;
      padding-top: 20px;
      margin-top: 40px;
