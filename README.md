@@ -21,7 +21,7 @@
 - Contacts
 
 ## webpage
-[image] (https://raw.githubusercontent.com/2BWeru/Pizza-Grill/b5d179ffafd5e416b863ae9f5a497285e533e0f1/image/Screenshot%202022-03-21%20at%2012-42-00%20Pizza%20Grill.png)
+![alt text](./image/Screenshot%202022-03-21%20at%2012-42-00%20Pizza%20Grill.png)
 
 [image] ()
 
@@ -33,5 +33,5 @@
 
 ##Contacts
 ### Fo further clarification or desire to improve this website contact me at:
-![link] ()
-![link] ()
+![link] (https://github.com/2BWeru)
+![link] (https://mail.google.com/mail/u/2/)
