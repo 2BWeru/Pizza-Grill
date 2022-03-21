@@ -21,12 +21,12 @@
 - Contacts
 
 ## webpage
-[image] ()
+[image] (https://raw.githubusercontent.com/2BWeru/Pizza-Grill/b5d179ffafd5e416b863ae9f5a497285e533e0f1/image/Screenshot%202022-03-21%20at%2012-42-00%20Pizza%20Grill.png)
 
 [image] ()
 
 ## Link to the site:
-![link] ()
+![link] (https://2bweru.github.io/Pizza-Grill/)
 
 ## Licence
 ### Copyright (c) 2022 Betty Weru
