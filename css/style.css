@@ -5,7 +5,7 @@
  }
  .image-background{
      background-image: url(../image/p1.jpg);
-     height:250vh;
+     height:100vh;
      width: 100vw;
      background-size: cover;
      position: relative;
@@ -16,13 +16,21 @@
    
  }
  nav a {
-     color: red;
+     color: gold;
  }
+ #t-menu{
+    background-color: brown;
+    margin-top: 20px;
+}
+#t-menu , h2{
+    margin-top: 10px;
+}
  .image-text{
      display: flex;
      justify-content: center;
      padding-top: 20%;   
      font-size: xx-large;  
+     height: 50%;
  }
  #t-name , h2{
      display: flex;
@@ -30,27 +38,39 @@
  }
 
  #p-text{
+     padding-top:200px;
      width:max-content;
-     height: 50%;
-     
      font-style: italic;
-     color: rgb(246, 237, 185);
+     color:black;
      /* border: 2px solid rgb(83, 83, 83); */
  }
  #p-text h3{
      padding-left: 140px;
+    
  }
- 
+ .about{
+    text-align: center;
+     padding-top: 10px;
+     padding-bottom: 12px;
+     background-color:teal;
+     /* padding-left: 40%; */
+ }
+ #abt{
+     color:greenyellow;
+ }
+ h4{
+     color: greenyellow;
+ }
 
  /* .image-text ,h3,h2{
      font-style: italic;
  } */
  .order-img{
      width:auto;
-     background-color:black;
-     padding-top: 20px;
+     padding-top: 10px;
      margin-top: 40px;
-     border:2px solid burlywood;
+     border-bottom:2px solid whitesmoke;
+     
      
  }
  #text-order{
@@ -61,7 +81,7 @@
      
  }
  .order-img , p{
-     color: whitesmoke;
+     color:black;
      padding-top: 90px;
      padding-right: 30px;
      font-size: large;
@@ -76,3 +96,68 @@
      text-align: center;
      background-color: rgba(0,0,0,0.7);
  } */
+
+ #flavours{
+    width:40%;
+}
+.menu_box{
+
+
+}
+#reveals-order{
+    display: none;
+}
+#checkout-details{
+    display: none;
+}
+.order_box{
+    height:70%;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 5px;
+    padding-left: 4px;
+    border:4px solid salmon;
+    background-image: url(../image/p4.jpg);
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: medium;
+   
+}
+#name{
+    background-color:teal;
+}
+#delivery-btn{
+    width:50%;
+    background-color: rgb(136, 214, 18);
+    border: 3px solid seashell;
+    color:black;
+    margin-top: 6px;
+    
+}
+#submit-btn{
+    width:50%;
+    background-color: rgb(136, 214, 18);
+    border: 3px solid seashell;
+    color:black;
+    margin-top: 6px;
+}
+#checkout-btn{
+    width: 60%;
+    height: 30%;
+    background-color: rgb(103, 158, 19);
+    border: 3px solid seashell;
+    margin-top: 20px;
+    float: inline-end;
+}
+
+
+@media  screen and (min-width:920) {
+    .order-img{
+        width:min-content;
+        padding-top: 6px;
+        margin-top: 20px;
+        border-bottom:2px solid whitesmoke;
+        
+        
+    }
+}
