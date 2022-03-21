@@ -228,27 +228,29 @@
                   </div>
                   <div class="row">
                     <div class="col-md-4">
-                  <button id="submit-btn">Place Order</button>
-                  <div id="reveals-order">
+                  <button id="submit-btn" onclick="myFunction()">Place Order</button>
+            
+                  </div>
+                  <div id="revealsOrder">
                       <h6 id="order-ttle">Your order is:</h6>
-                      <i>Price : ksh <span id="order-total"></span></i>
-                      <div id="deliver">
-                      <i>Would you like us to deliver your package home?
-                          <br>
-                          That will cost you an extra ksh 200.
-                      </i>
-                      </div>
-                        </div>
-                        <h6>For Delivery:</h6>
+                      <i>Price : ksh <span id="orderTotal"></span></i>
+                      <br>
+                       <h6>For Delivery:</h6>
+                       <div id="deliver"><br><br>
+                        <i>Would you like us to deliver your package home?
+                            <br>
+                            That will cost you an extra ksh 200.
+                        </i>
+                        </div><br>
                       <div class="col-md-4">
                       <div class="adress">
                        <form id="address">
                            <label for="adress"></label>
                            <input id="location" type="text" size="50" placeholder="Enter where your location..." required />
-                       <button id="delivery-btn">Delivery</button>
+                       <button id="delivery-btn" onclick="myDelivery()">Delivery</button>
                         </form>
                         </div>
-                        <button id="checkout-btn">Checkout</button>
+                        <button id="checkout-btn" onclick="myCheckout()">Checkout</button>
                         <div id="checkout-details"><br>
                             <ul id="order-info">Your Order is:</ul>
                             <li id="orderInfo">Thank you and Welcome</li>
@@ -277,6 +279,19 @@
     
       </div></div>
     </main>
+    <script>
+      let myFunction = function(){
+          $("#revealsOrder").show();
+      }
+        let myDelivery = function(){
+         $("#checkout-details").show();
+        }
+       let myCheckout = function(){
+         $("#checkout-details").show();
+       } 
+        
+      
+    </script>
     
    <script src="./js/jquery.js"></script>
      <script

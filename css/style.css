@@ -111,11 +111,8 @@
  #flavours{
     width:40%;
 }
-.menu_box{
 
-
-}
-#reveals-order{
+#revealsOrder{
     display: none;
 }
 #checkout-details{
@@ -130,7 +127,7 @@
     border:4px solid silver;
     background-image: url(../image/p2.jpg);
     color: ghostwhite;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: medium;
    
 }
@@ -145,12 +142,36 @@
     margin-top: 20px;
     
 }
+.delivery-btn:hover
+{
+  opacity: 1;
+  background-color: green;
+  border: 1px #99ccff solid;
+}
+
+.delivery-btn:active
+{
+  background-color:teal;
+  border: 1px #000000 solid;
+}
 #submit-btn{
     width:90%;
     background-color: rgb(136, 214, 18);
     border: 3px solid seashell;
     color:black;
     margin-top: 6px;
+}
+.submit-btn:hover
+{
+  opacity: 1;
+  background-color: green;
+  border: 1px #99ccff solid;
+}
+
+.submit-btn:active
+{
+  background-color:teal;
+  border: 1px #000000 solid;
 }
 #checkout-btn{
     width: 90%;
@@ -159,6 +180,18 @@
     border: 3px solid seashell;
      margin-top: 50px; 
     float: inline-end;
+}
+.checkout-btn:hover
+{
+  opacity: 1;
+  background-color: white;
+  border: 1px #99ccff solid;
+}
+
+.checkout-btn:active
+{
+  background-color:teal;
+  border: 1px #000000 solid;
 }
 .details{
      float: left; 
