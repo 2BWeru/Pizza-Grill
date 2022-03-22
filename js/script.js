@@ -90,15 +90,15 @@
          let pizzaQuantity = Number($("#number-slector").val());
 
          let newPizzaInfoOrder = new Order(size,crust,toppings,number, false);
-         $("#size").text(newPizzaInfoOrder.size + " " + newPizzaInfoOrder.flavour + ": " + "Ksh. " + newPizzaInfoOrder.priceBySize());
-         $("#crust).text(PizzaInfoOrder.crust + ":" +  "Ksh." + PizzaInfoOrder.crustPrice());
+         $("#size").text(newPizzaInfoOrder.size + " " + newPizzaInfoOrder.flavours + ": " + "Ksh. " + newPizzaInfoOrder.priceBySize());
+         $("#crust).text(newPizzaInfoOrder.crust + " +":" + "Ksh. " + newPizzaInfoOrder.priceByCrust());
          $("#toppings").text(newPizzaInfoOrder.toppings + " " + 'toppings' +":" + "Ksh. " + newPizzaInfoOrder.priceByToppings());
          $("#delivery").text("Delivery:" + newPizzaInfoOrder.DeliveryPrice());
+      
          $("#order-total").text("Total: " + "Ksh. " + newPizzaInfoOrder.totalPlusDelivery());
-      });
-        //  $("#orderTotal").text(newPizzaInfoOrder.totalCostPrice());
-        // $("#order-info").append("<ul><li>" + pizzaDetails + "</li></ul>");
-        
+         $("#order-title").text(newPizzaInfoOrder.size+ " " + newPizzaOrder.flavours + " " + newPizzaInfoOrder.toppings + " " + newPizzaInfoOrder.number);
+
+        });
         
         $(document).ready(function(){
         
